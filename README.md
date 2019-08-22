@@ -27,6 +27,8 @@ The source uses CSIA as default.
 
 ## How to use
 
+Of course, start by running ``npm install``.
+
 Running the script index.js via ``npm run start`` will upload all menus to instagram as story.
 
 The designed use is to run is as a cronjob every morning as it grabs the data with the reference to the current date.

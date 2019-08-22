@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+resources
+config.json
+test.js
+test.jpg
