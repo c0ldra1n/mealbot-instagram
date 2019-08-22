@@ -25,6 +25,12 @@ const getMeal = (date) => {
 
 The source uses CSIA as default.
 
+### Font Setup
+
+The source is set to use Spoqa Han Sans, and you will have to manually download the font and place them under ``resources`` directory at root.
+
+Rename the references as you need them in ``render.js``.
+
 ## How to use
 
 Of course, start by running ``npm install``.
