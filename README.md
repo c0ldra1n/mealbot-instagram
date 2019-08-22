@@ -11,7 +11,7 @@ To start, place config.json in the root of the project directory with the follow
 }
 ```
 ### School
-Find your school ID on NICE, and replace the region information in ``getMeal`` function from ``fetch.js``.
+Find your school ID on NEIS, and replace the region information in ``getMeal`` function from ``fetch.js``.
 
 ```js
 const getMeal = (date) => {
