@@ -3,25 +3,25 @@ const {
     createCanvas
 } = require('canvas');
 
-registerFont('./resources/NanumMyeongjo-Regular.ttf', {
+registerFont(`${__dirname}/resources/NanumMyeongjo-Regular.ttf`, {
     family: 'NanumMyeongjo'
 });
-registerFont('./resources/NanumMyeongjo-Bold.ttf', {
+registerFont(`${__dirname}/resources/NanumMyeongjo-Bold.ttf`, {
     family: 'NanumMyeongjo',
     weight: 'bold'
 });
-registerFont('./resources/SpoqaRegular.ttf', {
+registerFont(`${__dirname}/resources/SpoqaRegular.ttf`, {
     family: 'Spoqa Han Sans'
 });
-registerFont('./resources/SpoqaBold.ttf', {
+registerFont(`${__dirname}/resources/SpoqaBold.ttf`, {
     family: 'Spoqa Han Sans',
     weight: 'bold'
 });
-registerFont('./resources/SpoqaThin.ttf', {
+registerFont(`${__dirname}/resources/SpoqaThin.ttf`, {
     family: 'Spoqa Han Sans',
     weight: 'thin'
 });
-registerFont('./resources/SpoqaLight.ttf', {
+registerFont(`${__dirname}/resources/SpoqaLight.ttf`, {
     family: 'Spoqa Han Sans',
     weight: 'light'
 });
