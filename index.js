@@ -17,6 +17,7 @@ async function login() {
 }
 
 (async () => {
+    console.log(`Starting job at ${(new Date()).toString()}`);
     console.log("Logging in...");
     await login();
     console.log("Complete!");
